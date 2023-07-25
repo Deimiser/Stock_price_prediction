@@ -139,4 +139,11 @@ scores = f'''
 '''
 print(scores)
 ```
-This calculates and prints the evaluation metrics for the model. It calculates and prints the R-squared score and mean squared error (MSE) for both the training and testing datasets. The R-squared score indicates the proportion of variance in the target variable that is predictable from the features, and the MSE represents the average squared difference between the actual and predicted values.
+This calculates and prints the evaluation metrics for the model. It calculates and prints the R-squared score and mean squared error (MSE) for both the training and testing datasets. The R-squared score indicates the proportion of variance in the target variable that is predictable from the features, and the MSE represents the average squared difference between the actual and predicted values.In the above code, the independent variable is the 'Date' column, and the dependent variable is the 'Close' column.
+
+Independent Variable: 'Date'
+
+This variable represents the dates when the Tesla stock prices were recorded. It is the input feature used to train the linear regression model.
+Dependent Variable: 'Close'
+
+This variable represents the closing prices of Tesla's stock. It is the target variable that the linear regression model aims to predict based on the 'Date' (independent variable) and the relationship learned during the training phase.
